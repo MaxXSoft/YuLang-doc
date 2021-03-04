@@ -11,7 +11,7 @@
 // `io` 模块包含了标准输入和标准输出, 你可以使用标准输出, 向控制台输出文本
 import io
 
-// 这是 `main` 函数, 和 C/C++ 类似
+// 这是 `main` 函数, 和 C/C++ 类似, 所以括号里的参数也可以不写
 extern def main(argc: i32, argv: u8**): i32 {
   // 使用 `<<<` 向标准输出传递字符串
   out <<< "Hello world!\n"
