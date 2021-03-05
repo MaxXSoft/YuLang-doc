@@ -11,7 +11,7 @@
   * [3.2. 指针和引用](def-vars/ptrs-refs.md)
   * [3.3. 其他修饰符](def-vars/others.md) <!-- 函数指针, 数组, volatile -->
 * &nbsp;4. 定义函数
-  * [4.1. 定义和声明](def-funcs/def-decl.md)
+  * [4.1. 定义和声明函数](def-funcs/def-decl.md)
   * [4.2. 参数和返回值](def-funcs/args-rets.md)
 * &nbsp;5. 控制流
   * [5.1. 语句块](control-flows/blocks.md)
