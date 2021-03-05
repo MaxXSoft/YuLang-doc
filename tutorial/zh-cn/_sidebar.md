@@ -10,13 +10,13 @@
   * [3.1. 变量和常量](def-vars/vars-consts.md)
   * [3.2. 指针和引用](def-vars/ptrs-refs.md)
   * [3.3. 其他修饰符](def-vars/others.md)
-* &nbsp;4. 控制流
-  * [4.1. 语句块](control-flows/blocks.md)
-  * [4.2. if-else](control-flows/if-else.md)
-  * [4.3. when](control-flows/when.md)
-  * [4.4. while](control-flows/while.md)
-  * [4.5. for-in](control-flows/for-in.md)
-  * [4.6. 杂项](control-flows/miscs.md) <!-- break, continue, return, asm... -->
+* &nbsp;4. 控制流和表达式
+  * [4.1. 语句块](controls-exprs/blocks.md)
+  * [4.2. if-else](controls-exprs/if-else.md)
+  * [4.3. when](controls-exprs/when.md)
+  * [4.4. while](controls-exprs/while.md)
+  * [4.5. for-in](controls-exprs/for-in.md)
+  * [4.6. 杂项](controls-exprs/miscs.md) <!-- break, continue, return, asm... -->
 * &nbsp;5. 定义函数
   * [5.1. 定义和声明函数](def-funcs/def-decl.md)
   * [5.2. 参数和返回值](def-funcs/args-rets.md)
