@@ -22,7 +22,7 @@
 * 没有自增/自减运算符.
 * 赋值运算**不会**返回任何值.
 
-```
+```yu
 import io
 
 extern def main(argc: i32, argv: u8**): i32 {

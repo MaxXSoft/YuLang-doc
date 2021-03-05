@@ -9,7 +9,7 @@
 
 此外, 你还可以使用 `type` 语句来指定类型的别名:
 
-```
+```yu
 extern def main(argc: i32, argv: u8**): i32 {
   // 定义类型 `i32` 的别名为 `Int`
   type Int = i32
@@ -22,7 +22,7 @@ extern def main(argc: i32, argv: u8**): i32 {
 
 如果要在基本类型之间进行类型转换, 你可以使用 `as`:
 
-```
+```yu
 extern def main(argc: i32, argv: u8**): i32 {
   // 定义一个类型为 `i8` 的常量, 其值为命令行参数的个数
   let argc8: i8 = argc as i8
@@ -36,7 +36,7 @@ extern def main(argc: i32, argv: u8**): i32 {
 
 使用 `sizeof` 可以获得类型的大小:
 
-```
+```yu
 extern def main(argc: i32, argv: u8**): i32 {
   // 获取 `i32` 类型的大小
   let sizeof_i32: u32 = sizeof i32
