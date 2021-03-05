@@ -3,23 +3,23 @@
   * [1.2. Hello World](hello/hello-world.md)
   * [1.3. IDE 支持](hello/ide-support.md)
 * &nbsp;2. 原语
-  * [2.1. 基本类型](primitives/types.md) <!-- 以及类型转换, 类型别名, sizeof -->
+  * [2.1. 基本类型](primitives/types.md)
   * [2.2. 字面量和运算符](primitives/literals-ops.md)
-  * [2.3. 数组](primitives/arrays.md) <!-- 其实是数组初始化器 -->
+  * [2.3. 数组](primitives/arrays.md)
 * &nbsp;3. 定义变量
   * [3.1. 变量和常量](def-vars/vars-consts.md)
   * [3.2. 指针和引用](def-vars/ptrs-refs.md)
-  * [3.3. 其他修饰符](def-vars/others.md) <!-- 函数指针, 数组, volatile -->
-* &nbsp;4. 定义函数
-  * [4.1. 定义和声明函数](def-funcs/def-decl.md)
-  * [4.2. 参数和返回值](def-funcs/args-rets.md)
-* &nbsp;5. 控制流
-  * [5.1. 语句块](control-flows/blocks.md)
-  * [5.2. if-else](control-flows/if-else.md)
-  * [5.3. when](control-flows/when.md)
-  * [5.4. while](control-flows/while.md)
-  * [5.5. for-in](control-flows/for-in.md)
-  * [5.6. 杂项](control-flows/miscs.md) <!-- break, continue, return, asm... -->
+  * [3.3. 其他修饰符](def-vars/others.md)
+* &nbsp;4. 控制流
+  * [4.1. 语句块](control-flows/blocks.md)
+  * [4.2. if-else](control-flows/if-else.md)
+  * [4.3. when](control-flows/when.md)
+  * [4.4. while](control-flows/while.md)
+  * [4.5. for-in](control-flows/for-in.md)
+  * [4.6. 杂项](control-flows/miscs.md) <!-- break, continue, return, asm... -->
+* &nbsp;5. 定义函数
+  * [5.1. 定义和声明函数](def-funcs/def-decl.md)
+  * [5.2. 参数和返回值](def-funcs/args-rets.md)
 * &nbsp;6. 结构体和枚举
   * [6.1. 定义](structs-enums/define.md) <!-- 包括初始化器 -->
   * [6.2. 访问](structs-enums/access.md)

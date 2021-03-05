@@ -39,4 +39,4 @@ extern def main(argc: i32, argv: u8**): i32 {
 }
 ```
 
-关于如何定义函数, 请参考 [4.1 节](def-funcs/def-decl.md).
+关于如何定义函数, 请参考 [5.1 节](def-funcs/def-decl.md).
