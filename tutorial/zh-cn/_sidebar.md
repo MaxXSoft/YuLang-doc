@@ -1,6 +1,7 @@
 * &nbsp;1. 你好世界
   * [1.1. 从源代码构建](hello/build-from-src.md)
   * [1.2. Hello World](hello/hello-world.md)
+  * [1.3. IDE 支持](hello/ide-support.md)
 * &nbsp;2. 原语
   * [2.1. 基本类型](primitives/types.md) <!-- 以及类型转换, 类型别名, sizeof -->
   * [2.2. 字面量和运算符](primitives/literals-ops.md)
