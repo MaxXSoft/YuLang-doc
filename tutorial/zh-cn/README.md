@@ -10,7 +10,7 @@
 
 ## 版本和变更日志
 
-文档当前的版本为 0.0.1, 适用于羽语言 0.0.3 版本及以上.
+文档当前的版本为 0.0.1, 适用于羽语言 0.0.4 版本及以上.
 
 变更日志详见 [CHANGELOG.md](http://github.com/MaxXSoft/YuLang-doc/CHANGELOG.md)
 
