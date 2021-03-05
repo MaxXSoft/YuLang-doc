@@ -23,10 +23,10 @@
 * &nbsp;6. 结构体和枚举
   * [6.1. 定义](structs-enums/define.md) <!-- 包括初始化器 -->
   * [6.2. 访问](structs-enums/access.md)
-* &nbsp;7. 属性
-  * [7.1. 可见性](property/visibility.md)
-  * [7.2. 导入模块](property/import-mod.md)
-  * [7.3. 和其他语言交互](property/ffi.md)
+* &nbsp;7. 模块
+  * [7.1. 可见性](modules/visibility.md)
+  * [7.2. 导入模块](modules/import-mod.md)
+  * [7.3. 和其他语言交互](modules/ffi.md)
 * &nbsp;8. 语法糖
   * [8.1. 重载](sugars/overloading.md) <!-- 函数, 运算符 -->
   * [8.2. 中缀函数](sugars/infix-funcs.md) <!-- 定义新的运算符 -->
