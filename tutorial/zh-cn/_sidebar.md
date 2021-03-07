@@ -21,8 +21,8 @@
   * [5.1. 定义和声明函数](def-funcs/def-decl.md)
   * [5.2. 参数和返回值](def-funcs/args-rets.md)
 * &nbsp;6. 结构体和枚举
-  * [6.1. 定义](structs-enums/define.md) <!-- 包括初始化器 -->
-  * [6.2. 访问](structs-enums/access.md)
+  * [6.1. 定义结构体](structs-enums/def-structs.md)
+  * [6.2. 定义枚举](structs-enums/def-enums.md)
 * &nbsp;7. 模块
   * [7.1. 可见性](modules/visibility.md)
   * [7.2. 导入模块](modules/import-mod.md)
