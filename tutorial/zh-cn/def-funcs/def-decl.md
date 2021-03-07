@@ -7,6 +7,7 @@ import io
 
 // 递归计算斐波那契数列第 n 项
 def fib(n: i32): i32 {
+  // 函数体的最后一个表达式将被作为函数的返回值
   if n <= 2 {
     1
   }
@@ -41,4 +42,4 @@ extern def main(argc: i32, argv: u8**): i32 {
 }
 ```
 
-> 注: 关于 `extern` 的作用, 请参考 [7.1 节](modules/visibility.md).
+> 注: 关于 `extern` 的作用, 请参考 [7.1 节](modules/visibility.md?id=为什么需要-extern).
