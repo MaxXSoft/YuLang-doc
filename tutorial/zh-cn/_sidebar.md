@@ -25,7 +25,7 @@
   * [6.2. 定义枚举](structs-enums/def-enums.md)
 * &nbsp;7. 模块
   * [7.1. 可见性](modules/visibility.md)
-  * [7.2. 导入模块](modules/import-mod.md)
+  * [7.2. 导入模块](modules/import-mods.md)
   * [7.3. 和其他语言交互](modules/ffi.md)
 * &nbsp;8. 语法糖
   * [8.1. 重载](sugars/overloading.md) <!-- 函数, 运算符 -->
