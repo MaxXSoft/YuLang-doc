@@ -16,7 +16,7 @@
   * [4.3. when](controls-exprs/when.md)
   * [4.4. while](controls-exprs/while.md)
   * [4.5. for-in](controls-exprs/for-in.md)
-  * [4.6. 杂项](controls-exprs/miscs.md) <!-- break, continue, return, asm... -->
+  * [4.6. 杂项](controls-exprs/miscs.md)
 * &nbsp;5. 定义函数
   * [5.1. 定义和声明函数](def-funcs/def-decl.md)
   * [5.2. 参数和返回值](def-funcs/args-rets.md)
