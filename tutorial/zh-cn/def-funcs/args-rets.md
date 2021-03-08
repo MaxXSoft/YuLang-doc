@@ -22,3 +22,26 @@ extern def main(argc: i32, argv: u8**): i32 {
   0
 }
 ```
+
+## 形参的可变性
+
+值得一提的是, 所有函数形参都是不可变的 (除非形参具有可变引用类型), 即:
+
+```yu
+def func(x: i32, y: bool) { ... }
+```
+
+的形参定义相当于:
+
+```yu
+let x: i32 = actual_x
+let y: bool = actual_y
+```
+
+所以, 以下写法将无法通过编译:
+
+```yu
+def func(x: i32, y: bool) {
+  x = 1
+}
+```
