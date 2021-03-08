@@ -28,10 +28,10 @@
   * [7.2. 导入模块](modules/import-mods.md)
   * [7.3. 和其他语言交互](modules/ffi.md)
 * &nbsp;8. 语法糖
-  * [8.1. 重载](sugars/overloading.md) <!-- 函数, 运算符 -->
-  * [8.2. 中缀函数](sugars/infix-funcs.md) <!-- 定义新的运算符 -->
-  * [8.3. 点函数](sugars/dot-funcs.md) <!-- OOP 风格 -->
-  * [8.4. 迭代器](sugars/iterators.md) <!-- scope guard -->
+  * [8.1. 重载](sugars/overloading.md)
+  * [8.2. 中缀函数](sugars/infix-funcs.md)
+  * [8.3. 点函数](sugars/dot-funcs.md)
+  * [8.4. 迭代器](sugars/iterators.md)
 * &nbsp;9. 标准库
   * [9.1. sys](std/sys.md)
   * [9.2. dynarray](std/dynarray.md)
