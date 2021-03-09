@@ -42,5 +42,5 @@
   * [9.7. stack](std-libs/stack.md)
   * [9.8. strview](std-libs/strview.md)
 * &nbsp;10. 交叉编译
-  * [10.1. 编译选项](cross-comp/options.md)
+  * [10.1. 交叉编译选项](cross-comp/options.md)
   * [10.2. 示例: 编译到 riscv32](cross-comp/riscv32.md)
