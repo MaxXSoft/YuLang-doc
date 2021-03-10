@@ -53,7 +53,7 @@ def newArrayIter(arr: i32 var*, len: u32): ArrayIter {
 }
 
 def next(this: ArrayIter var&): i32 var& {
-  var cur: i32 var& = this.arr[this.cur]
+  let cur: i32 var& = this.arr[this.cur]
   this.cur += 1 as u32
   cur
 }
