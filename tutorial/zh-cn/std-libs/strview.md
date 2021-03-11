@@ -7,7 +7,7 @@
 模块提供如下构造器, 用于构造 `StrView` 对象:
 
 * `newStrView(str: u8*): StrView`: 从空终止字符串 ([null-terminated string](https://en.wikipedia.org/wiki/Null-terminated_string)) 构造一个 `StrView` 对象.
-* `newStrView(buf: u8*, len: u32): StrView`: 从字符数组构造一个 `StrView` 对象, `buf` 为字符数组的首地址, `len` 为其长度.
+* `newStrView(buf: u8*, len: usize): StrView`: 从字符数组构造一个 `StrView` 对象, `buf` 为字符数组的首地址, `len` 为其长度.
 
 ## 方法
 
@@ -15,7 +15,7 @@
 
 ### 元素访问
 
-* `at(i: i32): u8`/`at(i: u32): u8`: 返回字符串内的第 `i` 个字符.
+* `at(i: i32): u8`/`at(i: usize): u8`: 返回字符串内的第 `i` 个字符.
 * `front(): u8`: 返回字符串的第一个字符.
 * `back(): u8`: 返回字符串的最后一个字符.
 * `str(): u8*`: 返回对象所持有字符串的指针. 此方法不保证返回的指针一定指向一个空终止字符串.
@@ -27,12 +27,12 @@
 ### 容量
 
 * `empty(): bool`: 测试变长数组是否为空.
-* `len(): u32`: 返回对象所持有字符串的长度.
+* `len(): usize`: 返回对象所持有字符串的长度.
 
 ### 元素修改
 
-* `removePrefix(n: i32)`: 删除 `StrView` 开头的 `n` 个字符.
-* `removeSuffix(n: i32)`: 删除 `StrView` 结尾的 `n` 个字符.
+* `removePrefix(n: usize)`: 删除 `StrView` 开头的 `n` 个字符.
+* `removeSuffix(n: usize)`: 删除 `StrView` 结尾的 `n` 个字符.
 
 ## 运算符
 
@@ -51,10 +51,10 @@ import strview
 
 // 为 `StrView` 重载流输出运算符
 def <<<(this: IO&, sv: StrView&): IO& {
-  var i = 0 as u32
+  var i = 0 as usize
   while i < sv.len() {
     this <<< sv.at(i)
-    i += 1 as u32
+    i += 1 as usize
   }
   this
 }
@@ -69,8 +69,8 @@ extern def main(argc: i32, argv: u8**): i32 {
   out <<< "sv1 == sv2? " <<< sv1 == sv2 <<< "\n\n"
 
   // 删除 `sv1` 和 `sv2` 尾部的字符, 输出修改后的 `StrView` 并判等
-  sv1.removeSuffix(1)
-  sv2.removeSuffix(1)
+  sv1.removeSuffix(1 as usize)
+  sv2.removeSuffix(1 as usize)
   out <<< "removed, sv1: " <<< sv1 <<< ", sv2: " <<< sv2 <<< '\n'
   out <<< "sv1 == sv2? " <<< sv1 == sv2 <<< "\n\n"
 

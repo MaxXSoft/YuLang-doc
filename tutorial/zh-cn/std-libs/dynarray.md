@@ -7,7 +7,7 @@
 模块提供如下构造器, 用于构造 `DynArray` 对象:
 
 * `newDynArray(): DynArray`: 构造一个新的变长数组对象.
-* `newDynArray(count: i32, data: i32): DynArray`: 构造一个新的变长数组对象, 将其长度初始化为 `count`, 所有元素均填充为 `data`.
+* `newDynArray(count: usize, data: i32): DynArray`: 构造一个新的变长数组对象, 将其长度初始化为 `count`, 所有元素均填充为 `data`.
 
 ## 方法
 
@@ -33,16 +33,16 @@
 ### 容量
 
 * `empty(): bool`: 测试变长数组是否为空.
-* `size(): i32`: 返回变长数组中元素的个数.
-* `capacity(): i32`: 返回变长数组的容量, 即变长数组所持有的数组数据中实际可存放多少元素.
+* `size(): usize`: 返回变长数组中元素的个数.
+* `capacity(): usize`: 返回变长数组的容量, 即变长数组所持有的数组数据中实际可存放多少元素.
 
 ### 元素修改
 
 * `clear()`: 清空变长数组.
 * `push(data: i32)`: 将 `data` 放入变长数组尾部.
 * `pop(): i32`: 从变长数组尾部弹出一个元素并返回.
-* `resize(size: i32, data: i32)`: 重设变长数组中的元素个数. 如果 `size` 小于实际的元素个数, 则将数组尾部多余的元素舍去; 否则, 在尾部补充若干个 `data`.
-* `resize(size: i32)`: 同 `resize`. 如果 `size` 大于实际的元素个数, 在尾部补充若干个 0.
+* `resize(size: usize, data: i32)`: 重设变长数组中的元素个数. 如果 `size` 小于实际的元素个数, 则将数组尾部多余的元素舍去; 否则, 在尾部补充若干个 `data`.
+* `resize(size: usize)`: 同 `resize`. 如果 `size` 大于实际的元素个数, 在尾部补充若干个 0.
 * `map(op: (i32): i32)`: 对数组内的元素统一应用 `op` 操作.
 * `reduce(op: (i32, i32): i32): i32`: 从左至右, 依次对数组元素执行 `reduce` 操作.
 
