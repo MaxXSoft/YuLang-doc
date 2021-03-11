@@ -6,7 +6,7 @@ This repository contains all documentations about the Yu programming language.
 
 ## Documentations
 
-* YuLang tutorial: [中文版 (GitHub)](https://maxxsoft.github.io/YuLang-doc/tutorial/zh-cn/), [中文版 (Gitee)](https://maxxsoft.gitee.io/yulang-doc/tutorial/zh-cn/).
+* YuLang tutorial: [简体中文版 (GitHub)](https://maxxsoft.github.io/YuLang-doc/tutorial/zh-cn/), [简体中文版 (Gitee)](https://maxxsoft.gitee.io/yulang-doc/tutorial/zh-cn/).
 
 ## Changelog
 
