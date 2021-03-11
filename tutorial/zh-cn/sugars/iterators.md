@@ -44,17 +44,17 @@ import io
 // 迭代时可以修改数组中的元素
 struct ArrayIter {
   arr: i32 var*,
-  len: u32,
-  cur: u32,
+  len: usize,
+  cur: usize,
 }
 
-def newArrayIter(arr: i32 var*, len: u32): ArrayIter {
-  [ArrayIter] {arr, len, 0 as u32}
+def newArrayIter(arr: i32 var*, len: usize): ArrayIter {
+  [ArrayIter] {arr, len, 0 as usize}
 }
 
 def next(this: ArrayIter var&): i32 var& {
   let cur: i32 var& = this.arr[this.cur]
-  this.cur += 1 as u32
+  this.cur += 1 as usize
   cur
 }
 
@@ -63,7 +63,7 @@ def last(this: ArrayIter&): bool {
 }
 
 extern def main(argc: i32, argv: u8**): i32 {
-  let len = 5 as u32
+  let len = 5 as usize
   var arr = [i32[len]] {1, 2, 3, 4, 5}
 
   // 使用数组迭代器为数组的每一个元素乘二
